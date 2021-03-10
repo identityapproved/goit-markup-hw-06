@@ -336,7 +336,7 @@
                <a href="tel:+380961111111" class="address-item">+38 096 111 11 11</a>
             </address>
          </div>
-         <div class="subscribe">
+         <div class="join">
             <h2>Присоединяйтесь</h2>
             <ul class="socials">
                <li class="actions">
@@ -370,6 +370,18 @@
                </li>
             </ul>
          </div>
+         <div class="subscribtion">
+            <h2>Подпишитесь на рассылку</h2>
+            <div class="subscribtion-form">
+               <input type="email" name="mail" id="mail" placeholder="E-mail"/>
+               <button type="submit" class="subscribtion-button">
+                  Подписаться
+                  <svg class="icon-send" width="24" height="24">
+                     <use href="./images/symbol-defs.svg#send"></use>
+                  </svg>
+               </button>
+            </div>
+         </div>
       </div>
    </footer>
    
@@ -387,21 +399,33 @@
             <div class="form-field">
                <label for="name">Имя</label>
                <input type="text" name="name" id="name">
+               <svg class="modal-icon" width="12" height="12">
+                  <use href="./images/symbol-defs.svg#name"></use>
+               </svg>
             </div>
             <div class="form-field">
                <label for="tel">Телефон</label>
                <input type="tel" name="tel" id="tel">
+               <svg class="modal-icon" width="12" height="12">
+                  <use href="./images/symbol-defs.svg#telephone"></use>
+               </svg>
             </div>
             <div class="form-field">
                <label for="mail">Почта</label>
                <input type="email" name="mail" id="mail">
+               <svg class="modal-icon" width="12" height="12">
+                  <use href="./images/symbol-defs.svg#email"></use>
+               </svg>
             </div>
             <div class="form-field">
                <label for="comment">Комментарий</label>
                <textarea name="comment" id="comment" rows="8" placeholder="Введите текст"></textarea>
             </div>
-            <div class="form-field">
-            <input type="checkbox" name="policy" id="policy">
+            <div class="label">
+            <input class="checkbox" type="checkbox" name="policy" id="policy">
+            <svg class="checkbox-icon" width="16" height="16">
+               <use href="./images/symbol-defs.svg#check"></use>
+            </svg>
             <label for="policy">Соглашаюсь с рассылкой и принимаю
                <a href="#" class="policy-link">Условия договора</a>
             </label>
