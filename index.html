@@ -398,36 +398,37 @@
          <form action="">
             <div class="form-field">
                <label for="name">Имя</label>
-               <input type="text" name="name" id="name">
+               <input class="form-input" type="text" name="name" id="name">
                <svg class="modal-icon" width="12" height="12">
                   <use href="./images/symbol-defs.svg#name"></use>
                </svg>
             </div>
             <div class="form-field">
                <label for="tel">Телефон</label>
-               <input type="tel" name="tel" id="tel">
-               <svg class="modal-icon" width="12" height="12">
+               <input class="form-input" type="tel" name="tel" id="tel">
+               <svg class="modal-icon" width="13" height="13">
                   <use href="./images/symbol-defs.svg#telephone"></use>
                </svg>
             </div>
             <div class="form-field">
                <label for="mail">Почта</label>
-               <input type="email" name="mail" id="mail">
-               <svg class="modal-icon" width="12" height="12">
+               <input class="form-input" type="email" name="mail" id="email">
+               <svg class="modal-icon" width="15" height="12">
                   <use href="./images/symbol-defs.svg#email"></use>
                </svg>
             </div>
             <div class="form-field">
                <label for="comment">Комментарий</label>
-               <textarea name="comment" id="comment" rows="8" placeholder="Введите текст"></textarea>
+               <textarea class="comment" name="comment" id="comment" rows="8" placeholder="Введите текст"></textarea>
             </div>
             <div class="label">
+            <label for="policy">
             <input class="checkbox" type="checkbox" name="policy" id="policy">
             <svg class="checkbox-icon" width="16" height="16">
                <use href="./images/symbol-defs.svg#check"></use>
             </svg>
-            <label for="policy">Соглашаюсь с рассылкой и принимаю
-               <a href="#" class="policy-link">Условия договора</a>
+            Соглашаюсь с рассылкой и принимаю 
+            <a href="#" class="policy-link">Условия договора</a>
             </label>
             </div>
          </form>
